@@ -1,0 +1,54 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.btn-default {
+	background-color: #02b875;
+	border: none;
+	border-radius: 50px;
+	width: 150px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 1px;
+    line-height: 2;
+}
+
+.btn-default:hover {
+	background-color: #02b873;
+	border: none;
+	border-radius: 50px;
+	width: 150px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 1px;
+    line-height: 2;
+}
+
+.container1 {
+	width: 1000px;
+}
+
+.navbar {
+	background-color: #fff;
+	border: none;
+}
+
+.nav1 {
+	    margin-top: 6px;
+}
+
+.nav2 {
+	        margin-top: -20px;
+    height: 30px;
+}
+
+.nav-sep {
+	margin-top: -10px;
+}
+
+.jumbotron {
+	 margin-top: -22px;
+
+}
