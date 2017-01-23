@@ -1,6 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+	background-color: #fafafa;
+}
 
 .btn-default {
 	background-color: #02b875;
@@ -45,7 +48,8 @@
 }
 
 .nav-sep {
-	margin-top: -10px;
+	margin-top: -20px;
+	width: 1000px;
 }
 
 .jumbotron {
