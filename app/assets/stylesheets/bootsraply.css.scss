@@ -3,6 +3,12 @@
 
 body {
 	background-color: #fafafa;
+	color: #333;
+}
+
+a { 
+	
+	color: #02b875;
 }
 
 .btn-default {
@@ -39,11 +45,11 @@ body {
 }
 
 .nav1 {
-	    margin-top: 6px;
+	margin-top: 6px;
 }
 
 .nav2 {
-	        margin-top: -20px;
+	 margin-top: -20px;
     height: 30px;
 }
 
@@ -52,7 +58,33 @@ body {
 	width: 1000px;
 }
 
+.profile-img img {
+    border-radius: 100px;
+    width: 30px;
+    margin-top: 9px;
+
+}
+
+.profile-username {
+    margin-top: 15px; padding-left: 12px;
+
+}
+
 .jumbotron {
 	 margin-top: -22px;
 
 }
+
+.description {
+	color: #333;
+	font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+}
+
+
+

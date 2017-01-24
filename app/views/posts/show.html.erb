@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="container container1">
+
+
+		<h1>
+		  <%= @post.title %>
+		</h1><br>
+
+		<p>
+		  <%= @post.author %>
+		</p>
+
+		<p class="description">  
+		  <%= @post.description %>
+		</p>
+
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
+</div>
