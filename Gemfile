@@ -19,7 +19,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise', '~> 4.2'
 gem 'omniauth-facebook'
 gem 'paperclip', '~> 5.1'
-gem 'aws-sdk', '~> 2.7'
+gem 'aws-sdk', '~> 2.3'
 
 
 # Use Redis adapter to run Action Cable in production
@@ -47,8 +47,13 @@ end
 
 group :production do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'pg', '0.19.0'
+  gem 'pg'
   gem 'rails_12factor'
 end 
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+
+
