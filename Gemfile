@@ -19,6 +19,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise', '~> 4.2'
 gem 'omniauth-facebook'
 gem 'paperclip', '~> 5.1'
+gem 'aws-sdk', '~> 2.7'
 
 
 # Use Redis adapter to run Action Cable in production
